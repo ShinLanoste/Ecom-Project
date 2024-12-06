@@ -1,0 +1,45 @@
+.singleProduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 50px;
+}
+
+.singleProductImage img {
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.singleProductImage {
+  box-shadow: 0 0 10px #0000001c;
+  text-align: center;
+  padding: 50px;
+}
+div#additionalProducts div.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+}
+
+div#additionalProducts div.container img {
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+div#additionalProducts div.container p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+div#additionalProducts div.container h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
