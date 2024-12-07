@@ -42,3 +42,7 @@
 
 // console.log(container([1, 2, 3, 4, 5, 6, 7]));
 // console.log(container([11, 22, 33, 44, 55], 3));
+
+// 5. JavaScript program to join all elements of the following array into a string.
+// let array = ["Harry", "John", "Drake", "Justin", "Ariana", "Tailor"];
+// console.log(array.join());
