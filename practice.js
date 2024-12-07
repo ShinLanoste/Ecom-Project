@@ -81,3 +81,16 @@
 // const changed = arr.map((item) => item.charAt(0).toLowerCase() + item.slice(1));
 // const result = changed.join(" ");
 // console.log(result);
+
+// 10. JavaScript program that prints the elements of the following array
+// var a = [
+//   [1, 2, 1, 24],
+//   [8, 11, 9, 4],
+//   [7, 0, 7, 27],
+//   [7, 4, 28, 14],
+//   [3, 10, 26, 7],
+// ];
+// a.forEach((row, rowindex) => {
+//   console.log(`row ${rowindex}`);
+//   row.forEach((element) => console.log(`${element}`));
+// });
