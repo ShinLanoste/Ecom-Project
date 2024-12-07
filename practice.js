@@ -53,3 +53,8 @@
 //   return splitnum;
 // };
 // console.log(dashAdd(123456));
+
+//7. JavaScript program to sort the items of an array.
+// const array = [1, 2, 6, 8, 13, 11, -2, -3, -4];
+// array.sort((a, b) => a - b);
+// console.log(array);
