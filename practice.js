@@ -58,3 +58,19 @@
 // const array = [1, 2, 6, 8, 13, 11, -2, -3, -4];
 // array.sort((a, b) => a - b);
 // console.log(array);
+
+// 8. JavaScript program to find the most frequent item in an array
+// const mostFrequent = (arr) => {
+//   let maxCount = 0;
+//   let frequent = [];
+//   let mostFrequent = null;
+//   arr.forEach((item) => {
+//     frequent[item] = (frequent[item] || 0) + 1;
+//     if (frequent[item] > maxCount) {
+//       maxCount = frequent[item];
+//       mostFrequent = item;
+//     }
+//   });
+//   return mostFrequent;
+// };
+// console.log(mostFrequent([1, 2, 3, 1, 5, 1]));
