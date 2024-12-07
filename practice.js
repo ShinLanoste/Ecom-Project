@@ -46,3 +46,10 @@
 // 5. JavaScript program to join all elements of the following array into a string.
 // let array = ["Harry", "John", "Drake", "Justin", "Ariana", "Tailor"];
 // console.log(array.join());
+
+// 6. JavaScript program that accepts a number as input and inserts dashes (-) between each even number
+// let dashAdd = (number) => {
+//   const splitnum = number.toString().split("").join("-");
+//   return splitnum;
+// };
+// console.log(dashAdd(123456));
