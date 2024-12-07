@@ -19,7 +19,7 @@ a {
 
 /* HomePage banner */
 .banner {
-  background: url("cat.jpg");
+  background: url("../images/cat.jpg");
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
