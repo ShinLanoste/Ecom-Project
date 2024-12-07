@@ -74,3 +74,10 @@
 //   return mostFrequent;
 // };
 // console.log(mostFrequent([1, 2, 3, 1, 5, 1]));
+
+// 9. JavaScript program that accepts a string as input and swaps the case of each character
+// const message = "THIS IS A WEIRD WORLD WE LIVE IN";
+// const arr = message.split(" ");
+// const changed = arr.map((item) => item.charAt(0).toLowerCase() + item.slice(1));
+// const result = changed.join(" ");
+// console.log(result);
