@@ -94,3 +94,14 @@
 //   console.log(`row ${rowindex}`);
 //   row.forEach((element) => console.log(`${element}`));
 // });
+
+// 11. JavaScript program to find the sum of squares of a numerical vector
+function sumofAllSquares(arr) {
+  let sum = 0;
+  arr.forEach((num) => {
+    sum += num * num;
+  });
+  return sum;
+}
+const vector = [2, 3, 5];
+console.log(sumofAllSquares(vector));
