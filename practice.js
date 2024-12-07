@@ -29,3 +29,16 @@
 
 // console.log(container([1, 2, 3, 4, 5]));
 // console.log(container([6, 7, 8, 9], 3));
+
+// 4. JavaScript function to get the last element of an array.
+// Passing the parameter 'n' will return the last 'n' elements of the array.
+// let container = (arr, n) => {
+//   if (n === undefined) {
+//     return arr.length - 1;
+//   } else {
+//     return arr.slice(arr.length - n);
+//   }
+// };
+
+// console.log(container([1, 2, 3, 4, 5, 6, 7]));
+// console.log(container([11, 22, 33, 44, 55], 3));
