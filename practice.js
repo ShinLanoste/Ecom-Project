@@ -96,12 +96,27 @@
 // });
 
 // 11. JavaScript program to find the sum of squares of a numerical vector
-function sumofAllSquares(arr) {
-  let sum = 0;
-  arr.forEach((num) => {
-    sum += num * num;
-  });
-  return sum;
-}
-const vector = [2, 3, 5];
-console.log(sumofAllSquares(vector));
+// function sumofAllSquares(arr) {
+//   let sum = 0;
+//   arr.forEach((num) => {
+//     sum += num * num;
+//   });
+//   return sum;
+// }
+// const vector = [2, 3, 5];
+// console.log(sumofAllSquares(vector));
+
+// 12. JavaScript program to compute the sum and product of an array of integers
+// function sumAndProduct(arr) {
+//   let sum = 0;
+//   let product = 1;
+//   arr.forEach((item) => {
+//     sum += item;
+//     product *= item;
+//   });
+//   return { sum, product };
+// }
+// const arr = [1, 2, 3, 4, 5];
+// const result = sumAndProduct(arr);
+// console.log(`Sum is ${result.sum}`);
+// console.log(`Product is ${result.product}`);
