@@ -120,3 +120,26 @@
 // const result = sumAndProduct(arr);
 // console.log(`Sum is ${result.sum}`);
 // console.log(`Product is ${result.product}`);
+
+// 13. JavaScript program to add items to a blank array and display them
+const userInput = document.getElementById("userInput");
+const addButton = document.getElementById("addBtn");
+const displayButton = document.getElementById("displayBtn");
+const displayWp = document.getElementById("displayContainer");
+let arr = [];
+
+addButton.addEventListener("click", () => {
+  const upload = userInput.value;
+  if (upload.trim() !== "") {
+    arr.push(upload);
+    userInput.value = "";
+  }
+});
+displayButton.addEventListener("click", () => {
+  displayWp.innerHTML = ""; // Clear previous content
+  arr.forEach((item, index) => {
+    const element = document.createElement("p");
+    element.textContent = `Element ${index} = ${item}`;
+    displayWp.appendChild(element);
+  });
+});
