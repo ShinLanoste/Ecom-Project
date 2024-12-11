@@ -136,7 +136,7 @@ addButton.addEventListener("click", () => {
   }
 });
 displayButton.addEventListener("click", () => {
-  displayWp.innerHTML = ""; // Clear previous content
+  displayWp.innerHTML = "";
   arr.forEach((item, index) => {
     const element = document.createElement("p");
     element.textContent = `Element ${index} = ${item}`;
