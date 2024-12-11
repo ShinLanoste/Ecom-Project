@@ -60,66 +60,68 @@
 // console.log(array);
 
 // 8. JavaScript program to find the most frequent item in an array
-// const mostFrequent = (arr) => {
-//   let maxCount = 0;
-//   let frequent = [];
-//   let mostFrequent = null;
-//   arr.forEach((item) => {
-//     frequent[item] = (frequent[item] || 0) + 1;
-//     if (frequent[item] > maxCount) {
-//       maxCount = frequent[item];
-//       mostFrequent = item;
-//     }
-//   });
-//   return mostFrequent;
-// };
-// console.log(mostFrequent([1, 2, 3, 1, 5, 1]));
+const mostFrequent = (arr5) => {
+  let maxCount = 0;
+  let frequent = [];
+  let mostFrequent = null;
+  arr5.forEach((item) => {
+    frequent[item] = (frequent[item] || 0) + 1;
+    if (frequent[item] > maxCount) {
+      maxCount = frequent[item];
+      mostFrequent = item;
+    }
+  });
+  return mostFrequent;
+};
+console.log(mostFrequent([1, 2, 3, 1, 5, 1]));
 
 // 9. JavaScript program that accepts a string as input and swaps the case of each character
-// const message = "THIS IS A WEIRD WORLD WE LIVE IN";
-// const arr = message.split(" ");
-// const changed = arr.map((item) => item.charAt(0).toLowerCase() + item.slice(1));
-// const result = changed.join(" ");
-// console.log(result);
+const message = "THIS IS A WEIRD WORLD WE LIVE IN";
+const arr3 = message.split(" ");
+const changed = arr3.map(
+  (item) => item.charAt(0).toLowerCase() + item.slice(1)
+);
+const result1 = changed.join(" ");
+console.log(result1);
 
 // 10. JavaScript program that prints the elements of the following array
-// var a = [
-//   [1, 2, 1, 24],
-//   [8, 11, 9, 4],
-//   [7, 0, 7, 27],
-//   [7, 4, 28, 14],
-//   [3, 10, 26, 7],
-// ];
-// a.forEach((row, rowindex) => {
-//   console.log(`row ${rowindex}`);
-//   row.forEach((element) => console.log(`${element}`));
-// });
+var a = [
+  [1, 2, 1, 24],
+  [8, 11, 9, 4],
+  [7, 0, 7, 27],
+  [7, 4, 28, 14],
+  [3, 10, 26, 7],
+];
+a.forEach((row, rowindex) => {
+  console.log(`row ${rowindex}`);
+  row.forEach((ele) => console.log(`${ele}`));
+});
 
 // 11. JavaScript program to find the sum of squares of a numerical vector
-// function sumofAllSquares(arr) {
-//   let sum = 0;
-//   arr.forEach((num) => {
-//     sum += num * num;
-//   });
-//   return sum;
-// }
-// const vector = [2, 3, 5];
-// console.log(sumofAllSquares(vector));
+function sumofAllSquares(arr2) {
+  let sum = 0;
+  arr2.forEach((num) => {
+    sum += num * num;
+  });
+  return sum;
+}
+const vector = [2, 3, 5];
+console.log(sumofAllSquares(vector));
 
 // 12. JavaScript program to compute the sum and product of an array of integers
-// function sumAndProduct(arr) {
-//   let sum = 0;
-//   let product = 1;
-//   arr.forEach((item) => {
-//     sum += item;
-//     product *= item;
-//   });
-//   return { sum, product };
-// }
-// const arr = [1, 2, 3, 4, 5];
-// const result = sumAndProduct(arr);
-// console.log(`Sum is ${result.sum}`);
-// console.log(`Product is ${result.product}`);
+function sumAndProduct(arr1) {
+  let sum = 0;
+  let product = 1;
+  arr1.forEach((item) => {
+    sum += item;
+    product *= item;
+  });
+  return { sum, product };
+}
+const arr1 = [1, 2, 3, 4, 5];
+const result = sumAndProduct(arr1);
+console.log(`Sum is ${result.sum}`);
+console.log(`Product is ${result.product}`);
 
 // 13. JavaScript program to add items to a blank array and display them
 const userInput = document.getElementById("userInput");
@@ -143,3 +145,23 @@ displayButton.addEventListener("click", () => {
     displayWp.appendChild(element);
   });
 });
+
+// 14. JavaScript function to remove duplicates from an array
+const removeDuplicate = (array) => {
+  const filtered = [...new Set(array)];
+  return filtered;
+};
+
+const list = [
+  "Ryner",
+  "Shin",
+  "Shigeo",
+  "Ryner",
+  "Lanoste",
+  "Schnee",
+  "Ryner",
+  "Shin",
+  "Ryner",
+  "Schnee",
+];
+console.log(removeDuplicate(list));
